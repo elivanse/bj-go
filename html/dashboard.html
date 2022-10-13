@@ -1,0 +1,361 @@
+
+
+{{define "content"}}
+<p>
+<header id="header" class="fixed-top d-flex align-items-center bg-secondary">
+  <div class="container d-flex justify-content-between ">
+    <div class="logo">
+      <a href="index.html"><img src="assets/img/logo-biblioteca.png" width="129px" heigth="43px"
+	class="img-fluid"></a>
+    </div>
+
+
+
+
+
+
+    <!--<nav id="navbar" class="navbar background-color: #e3f2fd;">-->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-secondary">
+      <ul>
+	<li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+	<li><a href="http://152.169.108.62/" target="_blank">Catálogo Bibliográfico</a></li>
+	<li class="dropdown"><a href="#">Jurisprudencia<i class="bi bi-chevron-down"></i></a>
+	  <ul>
+	    <li><a href="http://juriscivil.jusneuquen.gov.ar/" target="_blank">Fuero Civil y
+		Comercial</a></li>
+	    <li><a href="http://152.169.108.62:81" target="_blank">Penal</a></li>
+	    <li><a class="nav-link scrollto" href="#bol">Boletines</a></li>
+	  </ul>
+	</li>
+	<li><a class="nav-link scrollto" href="#tutoriales">Tutoriales|Reglamentos</a></li>
+	<li><a class="nav-link scrollto" href="#faq">Preguntas Frecuentes</a></li>
+	<li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+  </div>
+</header>
+<section id="hero">
+  <div class="hero-container">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+      <div class="carousel-inner" role="listbox">
+	<div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+	  <div class="carousel-container">
+	    <div class="container">
+	      <h1 class="text-white">Catalogo Bibliografico</h1>
+	      <h5 class="text-info">N O V E D A D E S</h5>
+	      <div class="row">
+		<div class="col-2 pb-1 pt-0 pr-1">
+		  <div class="card border-0 rounded-0 text-white overflow zoom">
+		    <div class="position-relative">
+		      <div class="ratio_middle-cover-2 image-wrapper">
+			<img class="img-fluid w-100" src="http://152.169.108.62/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=20061" alt="">
+		      </div>
+		      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+			<a href="http://152.169.108.62/cgi-bin/koha/opac-detail.pl?biblionumber=20061">
+			  <h3 class="h5 text-white my-1">Derecho administrativo de la Patagonia Norte</h3>
+			</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-2 pb-1 pt-0 pr-1">
+		  <div class="card border-0 rounded-0 text-white overflow zoom">
+		    <div class="position-relative">
+		      <div class="ratio_middle-cover-2 image-wrapper">
+			<img class="img-fluid w-100"
+			src="http://152.169.108.62/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=19856" alt="">
+		      </div>
+		      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+			<a href="http://152.169.108.62/cgi-bin/koha/opac-detail.pl?biblionumber=20061" target="_blank">
+			  <h3 class="h5 text-white my-1">
+			    Las teorías de la pena</h3>
+			</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-2 pb-1 pt-0 pr-1">
+		  <div class="card border-0 rounded-0 text-white overflow zoom">
+		    <div class="position-relative">
+		      <div class="ratio_middle-cover-2 image-wrapper">
+			<img class="img-fluid w-100"
+			src="http://152.169.108.62/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=19859" alt="">
+		      </div>
+		      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+			<a href="http://152.169.108.62/cgi-bin/koha/opac-detail.pl?biblionumber=20061" target="_blank">
+			  <h3 class="h5 text-white my-1">
+			    Mediación familiar : estrategias y tácticas.</h3>
+			</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-2 pb-1 pt-0 pr-1">
+		  <div class="card border-0 rounded-0 text-white overflow zoom">
+		    <div class="position-relative">
+		      <div class="ratio_middle-cover-2 image-wrapper">
+			<img class="img-fluid w-100"
+			src="http://152.169.108.62/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=19855" alt="">
+		      </div>
+		      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+			<a href="http://152.169.108.62/cgi-bin/koha/opac-detail.pl?biblionumber=20061" target="_blank">
+			  <h3 class="h5 text-white my-1">
+			    Acceso a la interrupción voluntaria del embarazo</h3>
+			</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-2 pb-1 pt-0 pr-1">
+		  <div class="card border-0 rounded-0 text-white overflow zoom">
+		    <div class="position-relative">
+		      <div class="ratio_middle-cover-2 image-wrapper">
+			<img class="img-fluid w-100"
+			src="http://152.169.108.62/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=19704" alt="">
+		      </div>
+		      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+			<a href="http://152.169.108.62/cgi-bin/koha/opac-detail.pl?biblionumber=19704" target="_blank">
+			  <h3 class="h5 text-white my-1">
+			    Manual de escritura de textos juridicos en lenguaje claro</h3>
+			</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-2 pb-1 pt-0 pr-1">
+		  <div class="card border-0 rounded-0 text-white overflow zoom">
+		    <div class="position-relative">
+		      <div class="ratio_middle-cover-2 image-wrapper">
+			<img class="img-fluid w-100"
+			src="http://152.169.108.62/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=19703" alt="">
+		      </div>
+		      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+			<a href="http://152.169.108.62/cgi-bin/koha/opac-detail.pl?biblionumber=19703" target="_blank">
+			  <h3 class="h5 text-white my-1">
+			    Derecho penal y perspectiva de género</h3>
+			</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	      </div>
+
+
+
+
+	    </div>
+	  </div>
+	</div>
+	<div class="carousel-item" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+	  <div class="carousel-container">
+	    <div class="container">
+	      <h3 class="text-white">Jurisprudencia Civil Comercial Laboral Minería Familia Administrativo</h3>
+	      <h5 class="text-info">N O V E D A D E S</h5>
+	      <div class="row">
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://juriscivil.jusneuquen.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=3" target="_blank" class="btn btn-primary">DURANT ALEXIS EMANUEL C/ BANCO DE LA NACION ARGENTINA S/ SUMARISIMO LEY 2268</a>
+		      <h10 class="text-dark">
+		      Tema(s): DERECHO PROCESAL | JURISDICCIÓN Y COMPETENCIA | LEY DE DEFENSA DEL CONSUMIDOR | DEBITO AUTOMATICO | BANCO DE LA NACIÓN ARGENTINA | ESTATUTO | COMPETENCIA POR LA PERSONA | COMPETENCIA LOCAL
+		      </h10>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://juriscivil.jusneuquen.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=3607" target="_blank" class="btn btn-primary">PROVINCIA DEL NEUQUEN C/ MORETTI MARIA ROSANA S/ APREMIO</a>
+		      <h10 class="text-dark">
+		      Tema(s):  DERECHO PROCESAL | PROCESO DE EJECUCIÓN | APREMIO | EXCEPCIÓN DE PAGO PARCIAL | FECHA DE PAGO | IMPUTACIÓN DE PAGO | MORA | ACEPTACIÓN DEL PAGO </h10></div>
+		  </div>
+		</div>
+	      </div>
+	      <div class="row">
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://juriscivil.jusneuquen.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=3609" target="_blank" class="btn btn-primary">MAUTI LINA C/ RICKEMBERG FLORENCIO S/ COBRO EJECUTIVO</a>
+		      <h10 class="text-dark">
+		      Tema(s):  DERECHO PROCESAL | MEDIDAS CAUTELARES | HABER JUBILATORIO | HONORARIOS PROFESIONALES | PROPORCIONALIDAD DEL EMBARGO | DISIDENCIA | INEMBARGABILIDAD | EMBARGO</h10>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://juriscivil.jusneuquen.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=3608" target="_blank" class="btn btn-primary">ESTEBAN GONZALO C/ SAN CRISTOBAL SOCIEDAD MUTUAL DE SEGUROS GENERALES S/ CUMPLIMIENTO DE CONTRATO</a>
+		      <h10 class="text-dark">
+		      Tema(s):  DERECHO CIVIL Y COMERCIAL | SEGUROS | CUMPLIMIENTO DEL CONTRATO | CONTRATOS BILATERALES | PÓLIZA DE SEGURO | DENUNCIA DEL SINIESTRO | ROBO DEL VEHÍCULO | INFORMACIÓN COMPLEMENTARIA</h10>
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="carousel-item" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+	  <div class="carousel-container">
+	    <div class="container">
+	      <h3 class="text-white">Jurisprudencia Penal</h3>
+	      <h5 class="text-info">N O V E D A D E S</h5>
+	      <div class="row">
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://152.169.108.62:81/cgi-bin/koha/opac-detail.pl?biblionumber=673" target="_blank" class="btn btn-primary">ESPINOZA JOSÉ LUIS; DIAZ MIGUEL ANGEL; CULLIQUEO JOSÉ ADRIAN; DÍAZ WALTER; CAMPOS LAUTARO; S/ HOMICIDIO TRIPLEMENTE AGRAVADO</a>
+		      <h10 class="text-dark">
+		      Tema(s): DERECHO PROCESAL | JUICIO POR JURADOS POPULARES | INSTRUCCIONES PARA LA DELIBERACIÓN | EXPLICACIÓN DE LAS INSTRUCCIONES Y DELIBERACIÓN | VEREDICTO | PRONUNCIAMIENTO DEL VEREDICTO | SENTENCIA | ARTS. 205 A 211 DEL CÓDIGO PROCESAL PENAL
+		      </h10>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://152.169.108.62:81/cgi-bin/koha/opac-detail.pl?biblionumber=674" target="_blank" class="btn btn-primary">ESPINOZA, JOSE LUIS; DIAZ, MIGUEL ANGEL; CULLIQUEO, JOSE ADRIAN; DIAZ, WALTER; CAMPOS, LAUTARO; S/ HOMICIDIO TRIPLEMENTE AGRAVADO</a>
+		      <h10 class="text-dark">
+		      Tema(s): DERECHO PROCESAL | DETERMINACIÓN DE LA PENA | CONTROL DE CONSTITUCIONALIDAD DE LA PENA DE PRISIÓN PERPETUA | ARTS. 179, 193 Y 202 CÓDIGO PROCESAL PENAL | DERECHO PENAL | DELITO CONTRA LA VIDA </h10></div>
+		  </div>
+		</div>
+	      </div>
+	      <div class="row">
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://152.169.108.62:81/cgi-bin/koha/opac-detail.pl?biblionumber=671" target="_blank" class="btn btn-primary">MIRANDA SARA S/ HOMICIDIO DOBLEMENTE AGRAVADO (Vma. MORA, ROQUE)</a>
+		      <h10 class="text-dark">
+		      Tema(s): DERECHO PENAL | HOMICIDIO AGRAVADO ENSAÑAMIENTO CRIMINIS CAUSA | ART. 80 INC. 7 DEL CP | PENA DE PRISIÓN PERPETUA, CONSTITUCIONALIDAD Y REVISIÓN | ESTATUTO DE ROMA | LEY 24.660 DE EJECUCIÓN PENAL
+		      </h10>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-sm-6">
+		  <div class="card bg-secondary">
+		    <div class="card-body">
+		      <a href="http://152.169.108.62:81/cgi-bin/koha/opac-detail.pl?biblionumber=672" target="_blank" class="btn btn-primary">MIRANDA, SARA S/ HOMICIDIO DOBLEMENTE AGRAVADO (Vma. MORA, ROQUE)</a>
+		      <h10 class="text-dark">
+		      Tema(s): DERECHO PROCESAL | DERECHO DE DEFENSA | DERECHO AL RECURSO</h10></div>
+		  </div>
+		</div>
+	      </div>
+	    </div></div></div>
+
+
+
+	    <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+	      <div class="carousel-container">
+		<div class="container">
+		  <img src="assets/img/simbolo-biblioteca.png" width="150px" heigth="150px" class="img-fluid">
+		  <p class="animate__animated animate__fadeInUp">Secretaría de Biblioteca y Jurisprudencia
+		  <h5 class="animate__animated animate__fadeInDown text-white">"Las Malvinas Son Argentinas: 40 años"</h5>
+		</div>
+	      </div>
+	    </div>
+      </div>
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+	<span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+	<span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<main id="main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {{block "tmplTutoriales" .}}
+  {{end}}
+
+
+
+  {{block "tmplPreguntasFrecuentes" .}}
+  {{end}}
+
+  {{block "tmplPie" .}}
+  {{end}}
+
+</main>
+
+<!-- End #main -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+		  </p>
+		  {{end}}

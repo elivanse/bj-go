@@ -1,0 +1,34 @@
+# imagen base de dist de go
+FROM golang:1.18.1-buster
+
+# directorio de la app
+WORKDIR /home/ivanse/go/src/bj-go
+
+# copiamos todo a la raiz del dir al dir /app
+COPY go.mod ./
+
+# instalamos dependencias
+RUN go mod download
+
+# copiamos archivos.go al dir de la ./app
+COPY main.go .
+
+# buildeamos la app con config opcional
+RUN go build -o /godocker
+
+# le decimos a dckr que el contenedor escuche a x puerto
+EXPOSE  8080
+
+# comando usado para ejectuar cuando la imagen se usa para correr el contenedor
+CMD [ "/godocker" ]
+
+# desde script ejecutamos
+
+# docker build --rm -t go-docker-multistage:alpha .
+
+# docker image ls
+
+# docker run -d -p 8080:8081 --name go-docker-app go-docker:alpha
+
+# docker ps
+
